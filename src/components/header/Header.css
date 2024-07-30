@@ -1,0 +1,55 @@
+/* Header.css */
+
+/* Background color for the Navbar */
+.bg-body-dark {
+    background-color: black; /* Dark background color */
+  }
+  
+  /* Brand logo styling */
+  .navbar-brand img {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar links styling */
+  .nav-link {
+    color: #ffffff !important; /* White text color */
+    margin-right: 2rem;
+  }
+  
+  .nav-link:hover {
+    color: #FF914D !important; /* Yellow text color on hover */
+  }
+  
+  /* Dropdown menu styling */
+  .navbar-nav .nav-link.active,
+  .navbar-nav .nav-item.show .nav-link {
+    color: #FF914D !important; /* Yellow text color for active link */
+  }
+  
+  .navbar-nav .dropdown-menu {
+    background-color: #1a1c1d; /* Dark background for dropdown */
+    border: none; /* Remove border */
+  }
+  
+  .navbar-nav .dropdown-item {
+    color: #ffffff; /* White text color for dropdown items */
+  }
+  
+  .navbar-nav .dropdown-item:hover {
+    background-color: #FF914D; /* Yellow background on hover */
+    color: #343a40; /* Dark text color on hover */
+  }
+  
+ 
+  /* Customize the toggle button */
+  .navbar-toggler {
+    border: none; /* Remove border */
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+  
