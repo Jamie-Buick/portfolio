@@ -1,7 +1,30 @@
 #root {
 
-  margin: 0 auto;
-  text-align: center;
+  margin: 0 0;
+ 
+}
+
+
+/* App.css */
+
+.btn-primary {
+  background-color: #FF914D; /* Your primary color */
+  border-color: #FF914D;
+}
+
+.btn-primary:hover {
+  background-color: #fc8134; /* Darker shade for hover effect */
+  border-color: #FF914D;
+}
+
+.btn-outline-secondary {
+  color: #6c757d; /* Your secondary text color */
+  border-color: #6c757d;
+}
+
+.btn-outline-secondary:hover {
+  color: #343a40; /* Darker text color on hover */
+  border-color: #343a40;
 }
 
 
