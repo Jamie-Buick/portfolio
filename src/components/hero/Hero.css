@@ -10,3 +10,12 @@ p {
     color: whitesmoke;
 }
 
+.custom-icon {
+    font-size: 2rem; /* Adjust size as needed */
+    margin-right: 3rem; /* Adjust spacing as needed */
+}
+  
+.custom-icon:last-child {
+    margin-right: 0; /* Remove margin from the last icon */
+}
+

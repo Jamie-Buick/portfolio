@@ -1,4 +1,3 @@
-import React from 'react';
 import "./Hero.css";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -31,13 +30,22 @@ const Hero = () => {
           now expanding into full-stack web development with React and Node.js. Explore my portfolio to
           view my projects and connect for opportunities.
         </p>
-        <div className="d-grid gap-2 d-md-flex justify-content-center justify-content-md-start py-3">
+        <div className="d-grid gap-2 d-md-flex justify-content-center justify-content-lg-start py-3 mb-3">
           <Button href="portfolio" variant="primary" size="lg" className="px-4 me-md-2">
             Portfolio
           </Button>
-          <Button href="contact" variant="outline-secondary" size="lg" className="px-4">
-            Contact Me
-          </Button>
+        </div>
+      
+        <div className="d-flex ms-3 justify-content-center justify-content-lg-start">
+            <a href="https://github.com/Jamie-Buick" target="_blank" className="nav-link custom-icon d-inline-block">
+              <i className="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/jamie-buick-809912173/" target="_blank" className="nav-link custom-icon d-inline-block">
+              <i className="fab fa-linkedin-in"></i>
+            </a>
+            <a href="mailto:jamiebuick28@gmail.com" target="_blank" className="nav-link custom-icon d-inline-block">
+              <i className="fas fa-envelope"></i>
+            </a>
         </div>
       </Col>
     </Row>
