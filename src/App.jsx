@@ -4,7 +4,9 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import './App.css';
 import Header from './components/header/Header';
 import Hero from './components/hero/Hero';
-import About from './components/about/About';
+import ClientPortfolio from './components/portfolio/clients';
+ 
+
 
 
 
@@ -15,7 +17,7 @@ function App() {
     <div>
       <Header />
       <Hero />
-      {/* <About /> */}
+      <ClientPortfolio  /> 
     </div>
   
   )
