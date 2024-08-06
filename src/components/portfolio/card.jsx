@@ -1,6 +1,7 @@
 import React from 'react';
 import './CardComponent.css'; // Import custom CSS
 
+
 function CardComponent (props) {
     return (
         <div className="card position-relative">
@@ -13,7 +14,7 @@ function CardComponent (props) {
                 <div className="text-center">
                     <h5 className="text-white">{props.title}</h5>
                     <p className="text-white">{props.description}</p>
-                    <a href={props.link} className="btn btn-light" target="_blank" rel="noopener noreferrer">
+                    <a href={props.link} className="btn btn-primary" target="_blank" rel="noopener noreferrer">
                         Go to Site
                     </a>
                 </div>

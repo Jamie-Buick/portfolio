@@ -6,18 +6,23 @@ import cards from '../../cardData'; // Import the card data
 
 const ClientPortfolio = () => {
   return (
-    <div className="container mt-5">
-      <div className="row">
-        {cards.map((card, index) => (
-          <div className="col-lg-3 col-md-4 col-sm-6 mb-4" key={index}>
-            <CardComponent 
-              image={card.image} 
-              title={card.title} 
-              description={card.description} 
-              link={card.link} 
-            />
-          </div>
-        ))}
+    <div className="bg-body-dark ">
+      <div className="container">
+        <h1 className="container mb-5 display-5 fw-bold lh-1 ">Portfolio</h1>
+        <div className="row">
+          {cards.map((card, index) => (
+            <div className="col-lg-6 col-md-6col-sm-12 mb-4" key={index}>
+                <CardComponent 
+                  key={index}
+                  image={card.image}
+                  title={card.title}
+                  description={card.description}
+                  link={card.link}
+
+              />
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );

@@ -1,28 +1,35 @@
+import group13Image from './assets/images/fastambition.png';
+import cleverhomeImage from './assets/images/cleverhome.png';
+import borntoplayImage from './assets/images/borntoplayimage.png';
+import pippinImage from './assets/images/pippinImage.png';
+
+
 const cards = [
     {
-      image: 'https://via.placeholder.com/300',
-      title: 'Card 1000',
-      description: 'Description for card 1',
-      link: 'https://example.com/1',
+      image: cleverhomeImage,
+      title: 'Clever Home',
+      description: 'Amazon FBA brand website',
+      link: 'https://cleverhome.shop/',
     },
     {
-      image: 'https://via.placeholder.com/300',
-      title: 'Card 200',
-      description: 'Description for card 2',
-      link: 'https://example.com/2',
+      image: group13Image,
+      title: 'Fast Ambition',
+      description: 'Amazon FBA brand website',
+      link: 'https://fastambition.co/',
     },
     {
-      image: 'https://via.placeholder.com/300',
-      title: 'Card 3000',
-      description: 'Description for card 3',
-      link: 'https://example.com/3',
+      image: borntoplayImage,
+      title: 'Born2Play',
+      description: 'Amazon FBA brand website',
+      link: 'https://born2play.co.uk/',
     },
     {
-      image: 'https://via.placeholder.com/300',
-      title: 'Card 4',
-      description: 'Description for card 4',
-      link: 'https://example.com/4',
+      image: pippinImage,
+      title: 'Pippin & Co',
+      description: 'Amazon FBA brand website',
+      link: 'https://pippin-co.com/',
     },
+    
     // Add more card objects as needed
   ];
   

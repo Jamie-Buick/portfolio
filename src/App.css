@@ -4,11 +4,19 @@
  
 }
 
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #272c48; /* Example background color for the whole page */
+}
 
-/* App.css */
+.bg-body-dark {
+  background-color: #272c48; /* Dark background color */
+}
+
 
 .btn-primary {
-  background-color: #FF914D; /* Your primary color *     /
+  background-color: #FF914D; /* Your primary color */
   border-color: #FF914D;
 }
 
