@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import logo from '../../assets/images/J.png'
 
 const Header = () => {
   return (
@@ -10,7 +11,7 @@ const Header = () => {
     <Container>
       <Navbar.Brand href="#home">
         <img
-          src="src/assets/images/J.png"
+          src={logo}
           width="30"
           height="30"
           className="d-inline-block align-top"

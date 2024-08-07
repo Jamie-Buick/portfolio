@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import Image from 'react-bootstrap/Image';
+import me from '../../assets/images/1674040510668 (1).jpeg'
 
 
 const Hero = () => {
@@ -13,7 +14,7 @@ const Hero = () => {
       <Row className="flex-lg-row-reverse align-items-center g-5 py-5">
         <Col xs={12} lg={6} className="text-center text-lg-start">
           <Image
-            src="src/assets/images/1674040510668 (1).jpeg"
+            src={me}
             roundedCircle
             className="d-block mx-auto img-fluid"
             alt="Profile"
