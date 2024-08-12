@@ -17,3 +17,16 @@ p {
     margin-right: 0; /* Remove margin from the last icon */
 }
 
+
+
+
+@media (max-width: 992px) {
+    .profile-image {
+      max-width: 300px; /* Maximum width on larger screens */
+    }
+}
+@media (min-width: 993px) {
+    .profile-image {
+      max-width: 450px; /* Maximum width on larger screens */
+    }
+}

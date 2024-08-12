@@ -16,10 +16,9 @@ const Hero = () => {
           <Image
             src={me}
             roundedCircle
-            className="d-block mx-auto img-fluid"
+            className="d-block mx-auto img-fluid profile-image"
             alt="Profile"
-            width={450}
-            height={450}
+    
             loading="lazy"
           />
         </Col>
