@@ -10,12 +10,10 @@ const Contact = () => {
       <h1 className="container my-5 display-5 fw-bold lh-1 ">Contact</h1>
       <Container>
         <Form
-          action="https://formsubmit.co/jamiebuick28@gmail.com" 
-          onSubmit={(event) => {
-
-            event.preventDefault(); onSubmit();
-            
-          }} >
+          action="https://formsubmit.co/jamiebuick@gmail.com" 
+          method="POST"
+          target="_blank"
+        >
           <Form.Group className="mb-3" controlId="formName">
             <Row>
               {/* Each Col will take the full width on small screens and half the width on medium and larger screens */}
