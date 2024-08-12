@@ -10,7 +10,7 @@ const Contact = () => {
       <h1 className="container my-5 display-5 fw-bold lh-1 ">Contact</h1>
       <Container>
         <Form
-          action="https://formsubmit.co/jamiebuick@gmail.com" 
+          action="https://formsubmit.co/jamiebuick28@gmail.com" 
           method="POST"
           target="_blank"
         >
