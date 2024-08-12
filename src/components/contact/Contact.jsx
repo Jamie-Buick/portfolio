@@ -10,7 +10,7 @@ const Contact = () => {
       <h1 className="container my-5 display-5 fw-bold lh-1 ">Contact</h1>
       <Container>
         <Form
-          action="https://formsubmit.co/jamiebuick28@gmail.com" 
+          action="https://formsubmit.co/14093ef5aae773c8bf33981c823370ba" 
           method="POST"
           target="_blank"
         >
@@ -44,6 +44,10 @@ const Contact = () => {
               required
             />
           </Form.Group>
+
+          <input type="hidden" name="_next" value="https://jamie-buick.netlify.app/"></input>
+          <input type="hidden" name="_autoresponse" value="Thank you for your message, I will be in contact soon!"></input>
+
           <Row className="justify-content-center">
             <Col xs="auto">
               <Button className="btn-primary my-3 align-items-center" type="submit" variant="dark" size="lg" block>
