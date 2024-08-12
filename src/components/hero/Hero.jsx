@@ -33,9 +33,9 @@ const Hero = () => {
             view my projects and connect for opportunities.
           </p>
           <div className="d-grid gap-2 d-md-flex justify-content-center justify-content-lg-start py-3 mb-3">
-            <Button href="portfolio" variant="primary" size="lg" className="px-4 me-md-2">
+      {/*       <Button href="clientwork" variant="primary" size="lg" className="px-4 me-md-2">
               Portfolio
-            </Button>
+            </Button> */}
           </div>
         
           <div className="d-flex ms-3 justify-content-center justify-content-lg-start">

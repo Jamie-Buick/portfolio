@@ -21,12 +21,11 @@ const Header = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ms-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#about">About</Nav.Link>
+
 
           <NavDropdown title="Portfolio" id="basic-nav-dropdown">
             <NavDropdown.Item href="#clientwork">Client Work</NavDropdown.Item>
-            <NavDropdown.Item href="#personalwork">Personal Work</NavDropdown.Item>
+            <NavDropdown.Item href="https://github.com/Jamie-Buick?tab=repositories">Personal Work</NavDropdown.Item>
           </NavDropdown>
           <Nav.Link href="#contact">Contact</Nav.Link>
 

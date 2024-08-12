@@ -5,6 +5,7 @@ import './App.css';
 import Header from './components/header/Header';
 import Hero from './components/hero/Hero';
 import ClientPortfolio from './components/portfolio/clients';
+import Contact from './components/contact/Contact';
  
 
 
@@ -18,6 +19,7 @@ function App() {
       <Header />
       <Hero />
       <ClientPortfolio  /> 
+      <Contact  /> 
     </div>
   
   )
