@@ -11,9 +11,11 @@ const Contact = () => {
       <Container>
         <Form
           action="https://formsubmit.co/jamiebuick@gmail.com" 
-          method="POST"
-          target="_blank"
-        >
+          onSubmit={(event) => {
+
+            event.preventDefault(); onSubmit();
+            
+          }} >
           <Form.Group className="mb-3" controlId="formName">
             <Row>
               {/* Each Col will take the full width on small screens and half the width on medium and larger screens */}
